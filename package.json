@@ -1,0 +1,45 @@
+{
+  "name": "niam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "pm": "pm2 start index.js --watch --ignore-watch=\"node_modules\" --max-restarts 3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/aliio/niam.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/aliio/niam/issues"
+  },
+  "homepage": "https://gitlab.com/aliio/niam#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "connect-mongo": "^4.6.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.1",
+    "node": "^19.6.1",
+    "nodemon": "^2.0.21",
+    "passport": "^0.6.0",
+    "passport-azure-ad": "^4.3.4",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-linkedin-oauth2": "^2.0.0",
+    "pm2": "^5.2.2",
+    "uuid": "^9.0.0"
+  }
+}
